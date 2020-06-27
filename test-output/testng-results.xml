@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Parallel test suite" duration-ms="31678" started-at="2020-06-14T11:30:05Z" finished-at="2020-06-14T11:30:36Z">
+    <groups>
+    </groups>
+    <test name="Regression 1" duration-ms="31678" started-at="2020-06-14T11:30:05Z" finished-at="2020-06-14T11:30:36Z">
+      <class name="seleniumStandalone.OpenGoogle">
+        <test-method status="PASS" signature="startDocker()[pri:0, instance:seleniumStandalone.OpenGoogle@224edc67]" name="startDocker" is-config="true" duration-ms="21559" started-at="2020-06-14T11:30:05Z" finished-at="2020-06-14T11:30:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDocker -->
+        <test-method status="PASS" signature="openGoogleOnFirefoxChromeInstances()[pri:0, instance:seleniumStandalone.OpenGoogle@224edc67]" name="openGoogleOnFirefoxChromeInstances" duration-ms="8529" started-at="2020-06-14T11:30:26Z" finished-at="2020-06-14T11:30:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openGoogleOnFirefoxChromeInstances -->
+        <test-method status="PASS" signature="openGoogleOnChromeInstances()[pri:0, instance:seleniumStandalone.OpenGoogle@224edc67]" name="openGoogleOnChromeInstances" duration-ms="4360" started-at="2020-06-14T11:30:26Z" finished-at="2020-06-14T11:30:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openGoogleOnChromeInstances -->
+        <test-method status="PASS" signature="stopDocker()[pri:0, instance:seleniumStandalone.OpenGoogle@224edc67]" name="stopDocker" is-config="true" duration-ms="1515" started-at="2020-06-14T11:30:35Z" finished-at="2020-06-14T11:30:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDocker -->
+      </class> <!-- seleniumStandalone.OpenGoogle -->
+    </test> <!-- Regression 1 -->
+  </suite> <!-- Parallel test suite -->
+</testng-results>

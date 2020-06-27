@@ -1,0 +1,1 @@
+docker-compose -f dockerNodes.YAML up --scale chrome=3
